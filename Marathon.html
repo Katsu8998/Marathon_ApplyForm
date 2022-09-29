@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>20XX City Race</title>
+</head>
+
+<body>
+    <h1>20XX City Race</h1>
+    <form action="">
+
+        <div>
+            Date: December 12th 20XX 8:00AM
+        </div>
+        <div>
+            Location: Tokyo
+        </div>
+
+        <h2>About</h2>
+        <p>
+            The Race starts at December 12th. If you want to join this race you can still do that!
+        </p>
+
+        <h2>Register Form</h2>
+        <div>
+            <label for="First">First Name</label>
+            <input id="First" type="text" name="firstname">
+
+            <label for="Last">Last Name</label>
+            <input id="Last" type="text" name="lastname">
+        </div>
+
+        <h3>Select a Race</h3>
+        <div>
+            <input type="radio" id="FUNRUN" name="distance" value="FUNRUN">
+
+            <label for="FUNRUN">Fun Run 5km</label>
+
+        </div>
+
+        <div>
+            <input type="radio" id="Half" name="distance" value="Half">
+
+            <label for="Half">Half Marathon</label>
+
+        </div>
+
+        <div>
+            <input type="radio" id="Full" name="distance" value="Full">
+
+            <label for="Full">Full Marathon</label>
+
+        </div>
+
+        <div>
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="email" required>
+
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="password" minlength="5" maxlength="20" required>
+        </div>
+
+        <div>
+            <label for="age">Please Select Age Group</label>
+            <select name="Age" id="age">
+                <option value="kids">Under 18</option>
+                <option value="Adults">20s to 50s</option>
+                <option value="Olders">Over 60s </option>
+            </select>
+        </div>
+
+        <button>Register!</button>
+    </form>
+
+    <footer>
+        <p>This is a website</p>
+        <ul>
+            <li><a href="Help">Help</a></li>
+            <li><a href="Privacy">Privacy</a></li>
+        </ul>
+    </footer>
+</body>
